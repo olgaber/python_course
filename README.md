@@ -1,2 +1,4 @@
 # python_course
-Test project for Python learning
+Test project for Python learning -updated
+add a string
+

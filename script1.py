@@ -11,4 +11,4 @@ button.click()
 # закрываем браузер после всех манипуляций
 browser.quit()
 
-#updated by first user and
+#updated by first user and second user

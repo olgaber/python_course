@@ -36,3 +36,4 @@ print(ls[1])
 y = 54645.4454
 ls = str(y).split(".")
 print(ls[1][0])
+

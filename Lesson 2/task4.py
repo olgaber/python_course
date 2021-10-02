@@ -1,25 +1,22 @@
-phrase = "Why Are There Two Jokers in a Deck of Cards?"
-#1
-ls = phrase.split(" ")
-print(ls[-3])
+d = {"title": "",
+        "price": 120.25,
+        "ingredients": ['cheese', 'tomato', 'sausages']}
 
-#2
-print(ls[1][0])
+# 1
+d.update({"description": "description text"})
+print(d)
 
-#3
-print(ls[-1][-1])
+# 2
+d["price"] += 100
+print(d["price"])
 
-#4
-ls.append("world")
-print(ls)
+# 3
+d["ingredients"].append("mushrooms")
+print(d["ingredients"])
 
-#5
-ls.insert(3, "new")
-print(ls)
+# 4
+print(len(d["ingredients"]))
 
-#6
-print(ls)
-
-#7
-ls.remove("world")
-print(ls)
+# 5
+d.pop("description")
+print(d)

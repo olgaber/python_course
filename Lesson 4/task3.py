@@ -18,3 +18,4 @@ def generate_song(lines_number=3, la_number=3, symbol=0):
 generate_song()
 generate_song(3, 4, 0)
 generate_song(3, 4, 1)
+

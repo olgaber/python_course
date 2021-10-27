@@ -28,3 +28,4 @@ print(it1.increase_salary(250))
 print(it1.add_skill("German"))
 print(it1.__str__())
 
+

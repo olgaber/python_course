@@ -46,3 +46,4 @@ print(s1.grades)
 print(s1.calculate_avg_score())
 print(s1.calculate_study_period())
 
+
